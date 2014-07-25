@@ -127,8 +127,9 @@ public class TestingGround {
 //		System.out.println(isInteresting("611"));
 //		int[] arr = {100,200,300,400,500,600};
 //		System.out.println(include(arr, 2000));
-		
-		System.out.println(removeDuplicate("AAA BB"));
-	}
+
+//		System.out.println(removeDuplicate("AAA BB"));
+
+    }
 	
 }

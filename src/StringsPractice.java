@@ -102,6 +102,10 @@ public class StringsPractice {
 //    	return isSubstring((s1+s1),s2);
     	return false;
     }
+
+    public static String reverseString(String s){
+        return null;
+    }
     
     
     

@@ -4,10 +4,10 @@ public class Queue {
 	
 	void enqueue(Object item){
 		if(first == null){
-			first = new Node((int) item);
+			first = new Node((Integer) item);
 			last = first;
 		}else{
-			last.next = new Node((int) item);
+			last.next = new Node((Integer) item);
 			last = last.next;
 		}
 	}
