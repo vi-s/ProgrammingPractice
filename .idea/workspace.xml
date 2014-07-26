@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="15ff1296-b008-4749-88ec-63f5ba0d4a8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MaxNoy.java" afterPath="$PROJECT_DIR$/src/MaxNoy.java" />
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+>>>>>>> f1bf1ecf556b8ce8577550e9a68345531a23c27e
     </list>
     <ignored path="ProgrammingPractice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,12 +75,21 @@
       <file leaf-file-name="MaxNoy.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MaxNoy.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.4247039" vertical-offset="327" max-vertical-offset="1615">
               <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
               <folding>
                 <element signature="e#1596#1597#0" expanded="true" />
                 <element signature="e#1636#1637#0" expanded="true" />
                 <element signature="e#1737#1745#0" expanded="true" />
+=======
+            <state vertical-scroll-proportion="0.68358713" vertical-offset="293" max-vertical-offset="1581">
+              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+              <folding>
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1589#1590#0" expanded="true" />
+                <element signature="e#1690#1698#0" expanded="true" />
+>>>>>>> f1bf1ecf556b8ce8577550e9a68345531a23c27e
               </folding>
             </state>
           </provider>
@@ -699,12 +712,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MaxNoy.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.4247039" vertical-offset="327" max-vertical-offset="1615">
           <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding>
             <element signature="e#1596#1597#0" expanded="true" />
             <element signature="e#1636#1637#0" expanded="true" />
             <element signature="e#1737#1745#0" expanded="true" />
+=======
+        <state vertical-scroll-proportion="0.68358713" vertical-offset="293" max-vertical-offset="1581">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1690#1698#0" expanded="true" />
+>>>>>>> f1bf1ecf556b8ce8577550e9a68345531a23c27e
           </folding>
         </state>
       </provider>
