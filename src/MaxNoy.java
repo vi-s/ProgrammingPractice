@@ -25,29 +25,23 @@ public class MaxNoy {
         }
 
         public T delete(T data) {
-            if(head == null){
-                return null;
-            }else{
-                Node<T> probe = head;
+            Node<T> probe = head;
 
+            if(head == null) return null;
+
+            if(head.data.equals(data)) head = head.next;
+            else{
                 while(probe.next != null){
-                    if(probe.data.equals(data)){
-                        //remove
-                        if(probe.next == null){
-                            probe = null;
-                            break;
-                        }else{
-                            probe.data = probe.next.data;
-                            probe.next = probe.next.next;
-                            break;
-                        }
+                    if(probe.next.data.equals(data)){
+                        probe.next = probe.next.next;
+                        return data;
                     }else{
                         probe = probe.next;
                     }
                 }
-
-                return null;
             }
+
+            return null;
         }
 
         public void printList(){
@@ -64,13 +58,15 @@ public class MaxNoy {
             System.out.println(toPrint);
         }
 
-        private class Node<T> {
-            T data;
-            Node<T> next;
 
-            public Node(T data){
-                this.data = data;
-            }
+    }
+
+    private static class Node<T> {
+        T data;
+        Node<T> next;
+
+        public Node(T data){
+            this.data = data;
         }
     }
 
@@ -83,7 +79,7 @@ public class MaxNoy {
 
         list.printList();
 
-        list.delete("s");
+        list.delete("z");
         list.printList();
 
     }
